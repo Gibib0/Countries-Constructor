@@ -13,3 +13,11 @@ function Country(title, capital, population, area) {
 
 const country1 = new Country('Ukraine', 'Kiev', '42000000', '603700')
 const country2 = new Country('Japan', 'Tokio', '124000000', '377974')
+
+function showProperties(obj) {
+	for(let key in obj) {
+		if(typeof obj[key] !== 'function') {
+			console.log(`${key} : ${obj[key]}`);
+		}
+	}
+}
