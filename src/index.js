@@ -21,3 +21,10 @@ function showProperties(obj) {
 		}
 	}
 }
+
+console.log(country1.showCountry());
+console.log(country2.showCountry());
+
+showProperties(country1)
+console.log('=========');
+showProperties(country2)
